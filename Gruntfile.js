@@ -203,7 +203,10 @@ module.exports = function (grunt) {
             options: {
                 dirs: ['<%= yeoman.dist %>']
             },
-            html: ['<%= yeoman.dist %>/{,*/}*.html'],
+            html: [
+                '<%= yeoman.dist %>/{,*/}*.html',
+                '<%= yeoman.dist %>/../app/views/**/*.php',
+            ],
             css: ['<%= yeoman.dist %>/styles/{,*/}*.css']
         },
         imagemin: {
