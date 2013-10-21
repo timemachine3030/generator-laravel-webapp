@@ -10,11 +10,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+
+        <!-- build:css(.tmp) /styles/main.css -->
+        <link rel="stylesheet" href="/styles/main.css">
         <!-- endbuild -->
+
         <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="/bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
     </head>
     <body>
@@ -65,9 +67,9 @@
         </div>
 
 
-        <!-- build:js scripts/vendor.js -->
+        <!-- build:js /scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="/bower_components/jquery/jquery.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -81,8 +83,8 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <!-- build:js scripts/main.js -->
-        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- build:js /scripts/main.js -->
+        <script data-main="/scripts/main" src="/bower_components/requirejs/require.js"></script>
         <!-- endbuild -->
 </body>
 </html>
