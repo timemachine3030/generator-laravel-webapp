@@ -19,4 +19,4 @@ it and use it as a boilerplate.
  - Test, I'm going to use this to develop a project start to finish and
    migrate any updates to this repo.
  - Make a real yeoman generator
-
+ - Add php lint, mess detector, etc to `grunt`
